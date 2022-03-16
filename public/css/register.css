@@ -1,0 +1,39 @@
+
+
+.caja-registro {
+    margin:auto;
+    text-align:justify
+}
+
+.datos-registro {
+    margin:auto;
+    display:block;
+    padding:15px 0;
+    font-weight: bold;
+}
+ .barra-registro {
+     padding:8px;
+     max-width: 100%;
+     width: 300px;
+ }
+
+ .boton1 {
+    max-width: 100%;
+    padding:5px;
+    width: 300px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+ }
+
+ .boton2 {
+    max-width: 100%;
+    padding:5px;
+    width: 300px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+ }
+
+
+

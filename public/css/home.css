@@ -1,0 +1,139 @@
+* {
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#ebebeb;
+}
+
+article {
+    width: 350px;
+}
+
+
+
+
+.main-header-bottom-bar {
+    display:none
+}
+
+.main-header-bottom-bar ul{ 
+    list-style:none;
+}
+
+.main-header-bottom-bar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.imagen-producto {
+    width: 90%;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.borde-articulo1 {
+    margin:10px 0;
+    background-color: white;
+}
+
+
+
+.borde-articulo2 {
+    background-color: white;
+    border: solid 1px #ebebeb;
+    padding: 21px 0;
+    position:relative;
+}
+
+.titulo-seccion {
+    text-align: center;
+    font-size: 24px;
+    color:#666;
+    padding: 15px;
+    margin: auto;
+}
+
+#logo-envio {
+    color:green;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position:absolute;
+    right: 20px;
+    top: -15px; 
+}
+
+.borde-articulo1:hover #logo-envio {
+    transform:rotate(90deg);
+}
+
+.precio {
+    width: 30%;
+    font-weight: bold;
+    position:relative;
+    display:block
+}
+
+.descuento {
+    font-size: 16px;
+    color:green;
+    width: 70%;
+}
+
+.descripcion {
+    font-size: 16px;
+    color:grey;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.detalles-producto {
+    display: none;
+    font-weight: 300;
+    padding:10px 5px;
+}
+
+
+.precio,
+.descuento,
+.descripcion {
+    padding: 0 15px;
+
+}
+
+.precioydescuento {
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-productos {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.borde-articulo1:hover .descripcion{
+    opacity: 1;
+}
+
+
+
+

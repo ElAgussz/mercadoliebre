@@ -1,0 +1,23 @@
+.caja-registro {
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    padding-top: 120px;
+    max-width:100%
+}
+
+.barra-registro {
+    max-width: 100%;
+    padding:12px;
+    width: 600px;
+}
+
+.boton {
+    max-width: 100%;
+    padding:5px;
+    width: 600px;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+}
